@@ -49,7 +49,7 @@ def addPreveiwAnim():
     unreal.SystemLibrary.begin_transaction("previwAnim","previwAnim",None)
 
     selected = unreal.EditorLevelLibrary.get_selected_level_actors()
-
+    
     world = unreal.EditorLevelLibrary.get_editor_world()
     if not world:
         print_string("请打开一个场景")

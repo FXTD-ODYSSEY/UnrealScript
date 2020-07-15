@@ -10,7 +10,6 @@
 import unreal
 
 
-
 # sequence_path: str : The level sequence asset path
 # actor: obj unreal.Actor : The actor you want to add into (or get from) the sequence asset
 # return: obj unreal.SequencerBindingProxy : The actor binding
