@@ -19,7 +19,7 @@ def buildImportTask(filename,destionation_path):
     task.set_editor_property('replace_existing',True)
     task.set_editor_property('save',True)
     task.set_editor_property('test',True)
-    return task
+    return task`
 
 def executeImportTasks(tasks):
     print "tasks",tasks
